@@ -1,4 +1,5 @@
 # Seraton
+![Seraton](https://i.ibb.co/vkqWQyJ/Seraton.png)
 
 Seraton is a project aimed at revolutionizing how we approach web accessibility and user experience. It focuses on providing seamless pronunciation and spelling assistance directly from the browser.
 
