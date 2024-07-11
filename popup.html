@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    body {
+      font-family: 'Hind Siliguri', sans-serif; /* Use Hind Siliguri font */
+    }
+    .popup-container {
+      width: 400px;
+      margin: 0 auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+   
+    .popup-body {
+      padding: 10px;
+    }
+    .popup-footer {
+      background-color: #f3f4f6;
+      padding: 16px;
+      text-align: right;
+    }
+    .popup-footer button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .popup-footer button.primary {
+      background-color: #1a73e8;
+      color: #fff;
+    }
+    .popup-footer button.secondary {
+      background-color: #718096;
+      color: #fff;
+      margin-left: 10px;
+    }
+    
+    /* Remove focus outline */
+    input:focus, textarea:focus, button:focus {
+      outline: none;
+    }
+
+    /* Remove border radius */
+    input, textarea {
+      border-radius: 0;
+    }
+  </style>
+  <title>Contact Form Filler</title>
+</head>
+<body>
+  <div class="popup-container">
+    <div class="popup-body">
+      <form id="contactForm" class="space-y-2">
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <input id="firstName" type="text" class="mt-1 p-2 border rounded w-full" placeholder="First Name" required>
+          </div>
+          <div>
+            <input id="lastName" type="text" class="mt-1 p-2 border rounded w-full" placeholder="Last Name" required>
+          </div>
+          <div>
+            <input id="fullName" type="text" class="mt-1 p-2 border rounded w-full" placeholder="Full Name" required>
+          </div>
+          <div>
+            <input id="subject" type="text" class="mt-1 p-2 border rounded w-full" placeholder="Subject" required>
+          </div>
+          <div>
+            <input id="email" type="email" class="mt-1 p-2 border rounded w-full" placeholder="Email" required>
+          </div>
+          <div>
+            <input id="phone" type="tel" class="mt-1 p-2 border rounded w-full" placeholder="Phone Number" required>
+          </div>
+        </div>
+        <div>
+          <textarea id="emailBody" class="mt-1 p-2 border rounded w-full" rows="4" placeholder="Email Body" required></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="popup-footer">
+      <button id="saveData" type="button" class="secondary">Save Data</button>
+      <button id="fillForm" type="button" class="primary">Fill Form</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

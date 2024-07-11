@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Seraton",
+  "version": "1.0",
+  "description": "Automatically fills contact forms with pre-saved data.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "fill_form": {
+      "suggested_key": {
+        "default": "Ctrl+B"
+      },
+      "description": "Fill the contact form with stored data"
+    }
+  }
+}
