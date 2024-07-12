@@ -1,33 +1,21 @@
 # Seraton
 ![Seraton](https://i.ibb.co/vkqWQyJ/Seraton.png)
+# Seraton - Simplify Your Lead Generation Now
 
-Seraton is a project aimed at revolutionizing how we approach web accessibility and user experience. It focuses on providing seamless pronunciation and spelling assistance directly from the browser.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-
-## Introduction
-
-Seraton enhances web accessibility by offering pronunciation and spelling assistance for any word directly from the browser. It's designed to be intuitive, lightweight, and easy to integrate into any web environment.
+Seraton is a powerful tool designed to streamline lead generation by automating the process of filling contact forms with just one click. This tool enhances efficiency and productivity for digital marketers and sales professionals by eliminating the manual effort of entering contact information repeatedly on various websites.
 
 ## Features
 
-- **Pronunciation Assistance:** Provides accurate pronunciation for any word.
-- **Spelling Assistance:** Helps users spell words correctly.
-- **Browser Integration:** Seamlessly integrates into popular browsers for quick access.
-- **User-Friendly Interface:** Simple and intuitive UI for easy interaction.
+- **Auto-fill Contact Forms:** Simplifies the process of filling out contact forms on websites by automatically populating fields with pre-saved information.
+- **User-Friendly Interface:** Intuitive and easy-to-use interface that allows users to set up and use the tool with minimal effort.
+- **Browser Integration:** Compatible with major web browsers, ensuring seamless integration and accessibility across different platforms.
+- **Data Security:** Implements robust security measures to protect user data and ensure compliance with data privacy regulations.
 
 ## Technologies Used
 
-- **Frontend:**
-  - HTML5
-  - CSS3
-  - JavaScript (ES6+)
+- **Frontend:** HTML, CSS, JavaScript (ES6+)
+- **Browser Extension Development:** Frameworks suitable for browser extensions (e.g., Chrome Extension API)
 
-- **Browser Extension Frameworks:**
-  - Chrome Extensions API
+
 
 
